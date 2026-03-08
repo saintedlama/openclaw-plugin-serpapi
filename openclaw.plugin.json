@@ -1,5 +1,5 @@
 {
-  "id": "openclaw-serpapi",
+  "id": "serpapi",
   "name": "SerpAPI Web Search",
   "description": "Web search via SerpAPI for OpenClaw agents.",
   "configSchema": {

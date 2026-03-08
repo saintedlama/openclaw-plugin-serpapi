@@ -4,7 +4,7 @@ import { OpenClawPluginApi, OpenClawPluginLogger, SerpApiConfig, SerpApiResponse
 
 const DEFAULT_RESULT_COUNT = 10;
 const MAX_RESULT_COUNT = 100;
-const PLUGIN_ID = "openclaw-serpapi";
+const PLUGIN_ID = "serpapi";
 
 
 export default function register(api: OpenClawPluginApi): void {

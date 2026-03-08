@@ -20,7 +20,7 @@ openclaw plugins install @saintedlama/openclaw-serpapi
 {
   "plugins": {
     "entries": {
-      "openclaw-serpapi": {
+      "serpapi": {
         "config": {
           "apiKey": "your-serpapi-key-here"
         }
