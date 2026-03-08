@@ -29,6 +29,3 @@ Thumbs.db
 
 # NPM pack artifacts
 *.tgz
-
-# Misc
-example_*.json

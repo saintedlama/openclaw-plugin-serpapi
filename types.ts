@@ -49,8 +49,19 @@ export type SearchInformation = {
   time_taken_displayed?: number;
 };
 
+export type SearchMetadata = {
+  status?: string;
+  total_time_taken?: number;
+};
+
+export type SerpApiAccountInfo = {
+  plan_searches_left?: number;
+  total_searches_left?: number;
+  this_month_usage?: number;
+};
+
 export type SerpApiResponse = {
-  search_metadata?: { status?: string };
+  search_metadata?: SearchMetadata;
   search_information?: SearchInformation;
   answer_box?: AnswerBox;
   knowledge_graph?: KnowledgeGraph;

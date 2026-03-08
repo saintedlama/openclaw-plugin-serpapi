@@ -5,10 +5,12 @@
   "main": "index.ts",
   "files": [
     "*.ts",
+    "!*.test.ts",
     "openclaw.plugin.json"
   ],
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit --strict",
+    "test": "vitest run"
   },
   "keywords": [
     "openclaw",
@@ -28,6 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "^25.3.5",
-    "typescript": "^5.4.0"
+    "typescript": "^5.4.0",
+    "vitest": "^3.0.0"
   }
 }
