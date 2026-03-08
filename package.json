@@ -1,0 +1,33 @@
+{
+  "name": "@saintedlama/openclaw-serpapi",
+  "version": "1.0.0",
+  "description": "OpenClaw plugin for web search via SerpAPI",
+  "main": "index.ts",
+  "files": [
+    "*.ts",
+    "openclaw.plugin.json"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "serpapi",
+    "web-search"
+  ],
+  "license": "MIT",
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.48",
+    "serpapi": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "typescript": "^5.4.0"
+  }
+}

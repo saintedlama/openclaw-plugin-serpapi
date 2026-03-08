@@ -1,0 +1,33 @@
+{
+  "id": "openclaw-serpapi",
+  "name": "SerpAPI Web Search",
+  "description": "Web search via SerpAPI for OpenClaw agents.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "SerpAPI key — Set key or environment variable SERPAPI-WEB-SEARCH-KEY. Get yours at https://serpapi.com/manage-api-key"
+      },
+      "resultCount": {
+        "type": "number",
+        "description": "Default number of organic results to return (1 to 100, default 10)",
+        "minimum": 1,
+        "maximum": 100,
+        "default": 10
+      }
+    }
+  },
+  "uiHints": {
+    "apiKey": {
+      "label": "SerpAPI Key",
+      "placeholder": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "sensitive": true
+    },
+    "resultCount": {
+      "label": "Default result count",
+      "placeholder": "10"
+    }
+  }
+}
